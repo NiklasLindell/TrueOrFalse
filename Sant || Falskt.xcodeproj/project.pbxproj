@@ -29,14 +29,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4F1F1EFF2012264500A5311F /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1F1EFF2012264500A5311F /* Sant || Falskt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sant || Falskt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1F1F022012264500A5311F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F1F1F042012264500A5311F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F1F1F072012264500A5311F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F1F1F092012264500A5311F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F1F1F0C2012264500A5311F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F1F1F0E2012264500A5311F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F1F1F132012264500A5311F /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1F1F132012264500A5311F /* Sant || FalsktTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sant || FalsktTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1F1F172012264500A5311F /* QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTests.swift; sourceTree = "<group>"; };
 		4F1F1F192012264500A5311F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F4C0051201631B20090B6D8 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
@@ -77,8 +77,8 @@
 		4F1F1F002012264500A5311F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F1F1EFF2012264500A5311F /* Quiz.app */,
-				4F1F1F132012264500A5311F /* QuizTests.xctest */,
+				4F1F1EFF2012264500A5311F /* Sant || Falskt.app */,
+				4F1F1F132012264500A5311F /* Sant || FalsktTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,8 +105,8 @@
 		4F4C0050201631890090B6D8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4F4C0051201631B20090B6D8 /* Question.swift */,
 				4F4C0053201632FB0090B6D8 /* AllQuestion.swift */,
+				4F4C0051201631B20090B6D8 /* Question.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -132,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F1F1EFE2012264500A5311F /* Quiz */ = {
+		4F1F1EFE2012264500A5311F /* Sant || Falskt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F1F1F1C2012264500A5311F /* Build configuration list for PBXNativeTarget "Quiz" */;
+			buildConfigurationList = 4F1F1F1C2012264500A5311F /* Build configuration list for PBXNativeTarget "Sant || Falskt" */;
 			buildPhases = (
 				4F1F1EFB2012264500A5311F /* Sources */,
 				4F1F1EFC2012264500A5311F /* Frameworks */,
@@ -144,14 +144,14 @@
 			);
 			dependencies = (
 			);
-			name = Quiz;
+			name = "Sant || Falskt";
 			productName = Quiz;
-			productReference = 4F1F1EFF2012264500A5311F /* Quiz.app */;
+			productReference = 4F1F1EFF2012264500A5311F /* Sant || Falskt.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4F1F1F122012264500A5311F /* QuizTests */ = {
+		4F1F1F122012264500A5311F /* Sant || FalsktTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F1F1F1F2012264500A5311F /* Build configuration list for PBXNativeTarget "QuizTests" */;
+			buildConfigurationList = 4F1F1F1F2012264500A5311F /* Build configuration list for PBXNativeTarget "Sant || FalsktTests" */;
 			buildPhases = (
 				4F1F1F0F2012264500A5311F /* Sources */,
 				4F1F1F102012264500A5311F /* Frameworks */,
@@ -162,9 +162,9 @@
 			dependencies = (
 				4F1F1F152012264500A5311F /* PBXTargetDependency */,
 			);
-			name = QuizTests;
+			name = "Sant || FalsktTests";
 			productName = QuizTests;
-			productReference = 4F1F1F132012264500A5311F /* QuizTests.xctest */;
+			productReference = 4F1F1F132012264500A5311F /* Sant || FalsktTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -188,7 +188,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4F1F1EFA2012264500A5311F /* Build configuration list for PBXProject "Quiz" */;
+			buildConfigurationList = 4F1F1EFA2012264500A5311F /* Build configuration list for PBXProject "Sant || Falskt" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -201,8 +201,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F1F1EFE2012264500A5311F /* Quiz */,
-				4F1F1F122012264500A5311F /* QuizTests */,
+				4F1F1EFE2012264500A5311F /* Sant || Falskt */,
+				4F1F1F122012264500A5311F /* Sant || FalsktTests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,7 +253,7 @@
 /* Begin PBXTargetDependency section */
 		4F1F1F152012264500A5311F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F1F1EFE2012264500A5311F /* Quiz */;
+			target = 4F1F1EFE2012264500A5311F /* Sant || Falskt */;
 			targetProxy = 4F1F1F142012264500A5311F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -390,6 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TNTN2A8G53;
 				INFOPLIST_FILE = Quiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niklaslindell.Quiz;
@@ -404,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TNTN2A8G53;
 				INFOPLIST_FILE = Quiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niklaslindell.Quiz;
@@ -425,7 +427,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiz.app/Quiz";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sant || Falskt.app/Sant || Falskt";
 			};
 			name = Debug;
 		};
@@ -441,14 +443,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiz.app/Quiz";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sant || Falskt.app/Sant || Falskt";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F1F1EFA2012264500A5311F /* Build configuration list for PBXProject "Quiz" */ = {
+		4F1F1EFA2012264500A5311F /* Build configuration list for PBXProject "Sant || Falskt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F1F1F1A2012264500A5311F /* Debug */,
@@ -457,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F1F1F1C2012264500A5311F /* Build configuration list for PBXNativeTarget "Quiz" */ = {
+		4F1F1F1C2012264500A5311F /* Build configuration list for PBXNativeTarget "Sant || Falskt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F1F1F1D2012264500A5311F /* Debug */,
@@ -466,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F1F1F1F2012264500A5311F /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
+		4F1F1F1F2012264500A5311F /* Build configuration list for PBXNativeTarget "Sant || FalsktTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F1F1F202012264500A5311F /* Debug */,

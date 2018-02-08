@@ -9,12 +9,23 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var ballonStatus: UIImageView!
+        
     @IBOutlet weak var questionStatus: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         updateView()
+        
+        UIView.animate(withDuration: 15, animations: {
+            self.ballonStatus.frame.origin.y -= 350
+        }){_ in
+            UIView.animateKeyframes(withDuration: 15, delay: 0.25, options: [.autoreverse, .repeat], animations: {
+                self.ballonStatus.frame.origin.y += 350
+                })
+        }
     }
+    
+    
    
     @IBAction func answerButtonPressed(_ sender: AnyObject) {
         if sender.tag == 1{
@@ -27,7 +38,7 @@ class ViewController: UIViewController {
         questionNumber += 1
         updateView()
     }
-    
+ 
     func nextQuestion(){
         if questionNumber <= 29{
              questionLabel.text = questionBank.list[questionNumber].questiontext

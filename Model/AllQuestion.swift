@@ -14,15 +14,15 @@ class AllQuestions{
     
     init() {
         
-        list.append(Question(text: "Australiens huvudstad heter Sidney?", correctAnswer: false ))
+        list.append(Question(text: "Australiens huvudstad heter Sidney", correctAnswer: false ))
         
         list.append(Question(text: "Råttor kan spy", correctAnswer: false ))
         
         list.append(Question(text: "Den så kallade \"svarta lådan\" i flygplan är orange", correctAnswer: true ))
         
-        list.append(Question(text: "Tungan är den starkaste muskeln i kroppen", correctAnswer: true ))
+        list.append(Question(text: "Tungan är den starkaste muskeln i kroppen förhållande till dess storlek", correctAnswer: true ))
         
-        list.append(Question(text: "Du får kramp om du badar direkt efter", correctAnswer: false))
+        list.append(Question(text: "Du får kramp om du badar direkt efter du har ätit", correctAnswer: false))
         
         list.append(Question(text: "Kinesiska muren syns från yttre rymden", correctAnswer: false ))
         
@@ -72,7 +72,7 @@ class AllQuestions{
         
         list.append(Question(text: "Orange är med i Tysklands flagga", correctAnswer: false ))
         
-        list.append(Question(text: "Kina är världens största cementtillverkare och står för drygt 60 procent av den globala tillverkningen och konsumtionen", correctAnswer: true ))
+        list.append(Question(text: "Kina är världens största tillverkare av cement och står för drygt 60% av den globala tillverkningen och konsumtionen", correctAnswer: true ))
        
     }
 }
