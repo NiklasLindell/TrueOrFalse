@@ -45,9 +45,12 @@ class ViewController: UIViewController {
         }
             
         else{
-            let alert = UIAlertController(title: "Bra jobbat!", message: "Du fick \(score) rätt av 30 möjliga. Vill du spela igen?", preferredStyle: .alert)
+            var alert_message = NSLocalizedString("alert_message", comment: "")
+            alert_message = String(format: alert_message, score)
             
-            let restartButton = UIAlertAction(title: "Spela igen", style: .default, handler: { (UIAlertAction) in
+            let alert = UIAlertController(title: NSLocalizedString("alert_title", comment: ""), message: alert_message, preferredStyle: .alert)
+            
+            let restartButton = UIAlertAction(title: NSLocalizedString("alert_button", comment: ""), style: .default, handler: { (UIAlertAction) in
                 self.startOver()
             })
             
@@ -62,10 +65,10 @@ class ViewController: UIViewController {
         
         if correctAnswer == pickedAnswer{
             score = score + 1
-            noticeSuccess("Rätt!", autoClear: true, autoClearTime: 1)
+            noticeSuccess(NSLocalizedString("answer_correct", comment: ""), autoClear: true, autoClearTime: 1)
         }
         else{
-            noticeError("Fel!", autoClear: true, autoClearTime: 1)
+            noticeError(NSLocalizedString("answer_false", comment: ""), autoClear: true, autoClearTime: 1)
         }
     }
     

@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Sant || Falskt"; ObjectID = "49h-19-i2I"; */
+"49h-19-i2I.text" = "Sant || Falskt";
+
+/* Class = "UILabel"; text = "99/99 "; ObjectID = "DY3-Pt-H5u"; */
+"DY3-Pt-H5u.text" = "99/99 ";
+
+/* Class = "UILabel"; text = "Fråga"; ObjectID = "OrB-dS-CYj"; */
+"OrB-dS-CYj.text" = "Fråga";
+
+/* Class = "UIButton"; normalTitle = "Sant"; ObjectID = "P8d-kj-jz3"; */
+"P8d-kj-jz3.normalTitle" = "Sant";
+
+/* Class = "UIButton"; normalTitle = "Falskt"; ObjectID = "zqW-9Z-mpU"; */
+"zqW-9Z-mpU.normalTitle" = "Falskt";

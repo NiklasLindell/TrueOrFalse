@@ -1,0 +1,47 @@
+/* 
+  Localizable.strings
+  Sant || Falskt
+
+  Created by Niklas Lindell on 2018-02-08.
+  Copyright © 2018 Niklas Lindell. All rights reserved.
+*/
+
+"question_1" = "Australiens huvudstad heter Sidney";
+"question_2" = "Råttor kan kräkas";
+"question_3" = "Den så kallade \"svarta lådan\" i flygplan är orange";
+"question_4" = "Tungan är den starkaste muskeln i kroppen förhållande till dess storlek";
+"question_5" = "Du får kramp om du badar direkt efter du har ätit";
+"question_6" = "Kinesiska muren syns från yttre rymden";
+"question_7" = "Om man sväljer ett tuggummi tar det sju år för kroppen att göra sig av med det";
+"question_8" = "Ingen kvinna hade vunnit en Oscar för bästa regi förens 2010";
+"question_9" = "Frihetsgudinnan var en gåva från Frankrike till USA";
+"question_10" = "Fruktsocker är nyttigare än vitt socker";
+"question_11" = "Alla livsmedel som innehåller E-nummer är onyttiga för kroppen";
+"question_12" = "På de flesta plan saknas rad 13";
+"question_13" = "Vikingarna bar horn på sina hjälmar";
+"question_14" = "Människan och bananflugan har samma gener till 60%";
+"question_15" = "1 + (3x5) x 0 blir 16";
+"question_16" = "Sverige har flest McDonalds-restauranger i världen – sett till antal invånare";
+"question_17" = "Det är olagligt att kissa i havet i Portugal";
+"question_18" = "Det är förbjudet att trampa på sedlar i Thailand. Detta för att sedlarna föreställer kungens ansikte";
+"question_19" = "IKEA Kungens Kurva är världens största IKEA-varuhus";
+"question_20" = "Det kortaste avståndet mellan USA och Ryssland är endast 4km";
+"question_21" = "Diamant är en form av kol";
+"question_22" = "Människan använder bara 10% av sin hjärnkapacitet";
+"question_23" = "Om det mänskliga ögat var en digitalkamera skulle den vara 576 megapixlar";
+"question_24" = "Morötter ger bättre syn";
+"question_25" = "Det är farligt att väcka någon som går i sömnen";
+"question_26" = "Grönsaker som värms i micro förlorar mer näring än om man värmer dem på spisen";
+"question_27" = "Fladdermusen är det djur som tagit flest människoliv";
+"question_28" = "Vatikanstaten är världens minsta land";
+"question_29" = "Orange är med i Tysklands flagga";
+"question_30" = "Kina är världens största tillverkare av cement och står för drygt 60% av den globala tillverkningen och konsumtionen";
+
+"answer_correct" = "Rätt!";
+"answer_false" = "Fel!";
+
+"alert_title" = "Bra jobbat!";
+"alert_message" = "Du fick %d rätt av 30 möjliga. Vill du spela igen?";
+"alert_button" = "Spela igen";
+
+

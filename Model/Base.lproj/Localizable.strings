@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  Sant || Falskt
+
+  Created by Niklas Lindell on 2018-02-08.
+  Copyright © 2018 Niklas Lindell. All rights reserved.
+*/
+
+"question_1" = "The capital of Australia is called Sidney";
+"question_2" = "Rats can vomit";
+"question_3" = "The so-called \"black box\" in aircraft is orange in color";
+"question_4" = "The tongue is the strongest muscle in the body relative to its size";
+"question_5" = "You get cramped if you swim right after you have eaten";
+"question_6" = "The Great Wall of China are visible from outer space";
+"question_7" = "If you swallow a chewing gum, it takes seven years for your body to get rid of it";
+"question_8" = "No woman had ever won an Oscar for Best Director until 2010";
+"question_9" = "The Statue of Liberty was a gift from France to the United States";
+"question_10" = "Fruit sugar is more healthy than white sugar";
+"question_11" = "All foods containing E-numbers are unhealthy to the body";
+"question_12" = "On most planes, row 13 is missing";
+"question_13" = "The vikings carried horns on their helmets";
+"question_14" = "Humans and fruit fly have the same genes to 60%";
+"question_15" = "1 + (3x5) x 0 equals 16";
+"question_16" = "Sweden has the largest number of McDonalds restaurants in the world - according to the number of residents";
+"question_17" = "It's illegal to pee in the ocean in Portugal";
+"question_18" = "It's forbidden to step on banknotes in Thailand. This is because the banknotes represent the king's face";
+"question_19" = "IKEA Kungens Kurva is the world's largest IKEA department store";
+"question_20" = "The shortest distance between the US and Russia is only 4km";
+"question_21" = "Diamond is a kind of carbon";
+"question_22" = "The human being uses only 10% of his brain capacity";
+"question_23" = "If the human eye was a digital camera, it would be 576 megapixels";
+"question_24" = "Carrots makes you see better";
+"question_25" = "It's dangerous to wake up someone who is sleepwalkning";
+"question_26" = "Vegetables heated in micro lose more nutrition than if heated on the stove";
+"question_27" = "Bats are the animals that has killed the most people";
+"question_28" = "Vatican City is the smallest country in the world";
+"question_29" = "The color orange includes in the German flag";
+"question_30" = "China is the world's largest cement manufacturer, accounting for more than 60% of global manufacturing and consumption";
+
+"answer_correct" = "Correct!";
+"answer_false" = "Wrong!";
+
+"alert_title" = "Good job!";
+"alert_message" = "You got \(score) correct answers of 30 possible. Do you want to play again?";
+"alert_button" = "Play again";
+
+
+
+
+
+
+
+
