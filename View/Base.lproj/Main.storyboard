@@ -87,10 +87,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99/99 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DY3-Pt-H5u">
-                                <rect key="frame" x="306.5" y="109" width="62.5" height="32"/>
+                                <rect key="frame" x="290" y="108" width="75" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="RLt-Tb-IYC"/>
-                                    <constraint firstAttribute="width" constant="62.5" id="TpY-Dr-Z4R"/>
+                                    <constraint firstAttribute="width" constant="75" id="B6Q-oe-snM"/>
+                                    <constraint firstAttribute="height" constant="35" id="p0Y-y4-NnD"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -99,13 +99,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="DY3-Pt-H5u" firstAttribute="top" secondItem="Z0v-tj-PfF" secondAttribute="bottom" constant="1" id="31o-oe-5Lk"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DY3-Pt-H5u" secondAttribute="trailing" constant="6" id="5n5-RA-bD4"/>
                             <constraint firstItem="Z0v-tj-PfF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="IBe-TC-Z5H"/>
                             <constraint firstItem="OrB-dS-CYj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="OKS-fD-2Pr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P8d-kj-jz3" secondAttribute="bottom" constant="20" id="Ody-vd-D4B"/>
                             <constraint firstItem="Hai-m8-2Nq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="QFO-J1-PlK"/>
                             <constraint firstItem="Hai-m8-2Nq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QoE-AE-26u"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DY3-Pt-H5u" secondAttribute="trailing" constant="10" id="WNr-O0-a7y"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Z0v-tj-PfF" secondAttribute="trailing" constant="49" id="aEv-NN-8TP"/>
                             <constraint firstItem="Z0v-tj-PfF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="49" id="aph-6a-Os9"/>
                             <constraint firstItem="P8d-kj-jz3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="fAD-wV-pLR"/>
@@ -115,6 +114,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OrB-dS-CYj" secondAttribute="trailing" constant="33" id="pZR-Lm-y7C"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zqW-9Z-mpU" secondAttribute="trailing" constant="16" id="pbF-Po-S85"/>
                             <constraint firstItem="OrB-dS-CYj" firstAttribute="top" secondItem="Z0v-tj-PfF" secondAttribute="bottom" constant="1" id="qgm-Zx-rXu"/>
+                            <constraint firstItem="DY3-Pt-H5u" firstAttribute="top" secondItem="Z0v-tj-PfF" secondAttribute="bottom" id="vVH-h2-wYn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
